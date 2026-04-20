@@ -53,5 +53,6 @@ TIM11_peripheral,
 SPI5_peripheral = 20,
 
 }APB2_peripheral_t;
-void clock_enable_APB2( APB2_peripheral_t peripheral)
+void clock_enable_APB2( APB2_peripheral_t peripheral);
+
 void clock_init();
