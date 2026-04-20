@@ -80,3 +80,4 @@ void clock_enable_APB2( APB2_peripheral_t peripheral)
     uint32t* RCC_APB2ENR = (uint32t*) (RCC_ADDR_BASE + 0x44);
     * RCC_AHB2ENR |= ( 1 << peripheral );
 }
+/*heheh*/
